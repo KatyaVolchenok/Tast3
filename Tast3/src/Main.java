@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException, IOException, ConverterException {
        
         DataConverter converter= DataConverter.getLogger();
-        converter.info("Hello 12");
+        converter.info("Hi 12");
         converter.info("23");
         
         System.out.println(converter.toBinary("Input.txt", "Output.txt", "UTF-8"));
