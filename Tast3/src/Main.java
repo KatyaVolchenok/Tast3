@@ -17,7 +17,7 @@ public class Main {
        
         DataConverter converter= DataConverter.getLogger();
         converter.info("Files");
-        converter.info("23");
+        converter.info("145");
         
         System.out.println(converter.toBinary("Input.txt", "Output.txt", "UTF-8"));
        
