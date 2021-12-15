@@ -47,10 +47,10 @@ public class SimpleEditor extends JFrame{
         
        
         createButtons();
-        ButtonsPanel.add(commandButton[0], BorderLayout.WEST);
-        ButtonsPanel.add(commandButton[1], BorderLayout.EAST);
-        ButtonsPanel.add(commandButton[2], BorderLayout.WEST);
-        ButtonsPanel.add(commandButton[3], BorderLayout.EAST);
+        ButtonsPanel.add(commandButton[0]);
+        ButtonsPanel.add(commandButton[1]);
+        ButtonsPanel.add(commandButton[2]);
+        ButtonsPanel.add(commandButton[3]);
         
         text = new JTextArea();
         text.setBackground(Color.YELLOW);
